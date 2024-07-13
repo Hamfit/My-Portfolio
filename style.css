@@ -195,6 +195,13 @@ nav a:hover {
     border-radius: 50px;
   }
 
+  @media (max-width: 576px) {
+    .contact ul a {
+      font-size: 20px;
+      width: 50px;
+   }
+  }
+
   @media (min-width: 768px) {
         .home p, .about p, .cv p {
           max-width: 550px;
